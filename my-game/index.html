@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>飞翔的小鸟游戏</h1>
+    <!-- 游戏窗口 -->
+    <div class="game_room">
+        <div class="bird"></div>     
+        <ul id="obstacles"></ul>
+        <!-- 游戏失败弹窗 -->
+        <div id="gameOverScreen">
+          <h2>游戏结束！</h2>
+          <button id="restartBtn">重试</button>
+        </div>
+    </div>
+
+  </body>
+  <script type="module" src="./client.ts"></script>
+</html>

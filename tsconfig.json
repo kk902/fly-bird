@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                  // 或者更高版本
+    "experimentalDecorators": true,       // 启用装饰器
+    "emitDecoratorMetadata": true,        // 启用装饰器元数据
+    "module": "commonjs",                 // 配置为 commonjs 模块
+    "moduleResolution": "node"
+  }
+}
