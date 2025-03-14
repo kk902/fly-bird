@@ -14,7 +14,7 @@ cd fly-bird
 npm install
 ts-node server.ts
 ```
-### 3. 进入游戏客户端目录
+### 3. 再开一个终端 进入游戏客户端目录
 ```sh
 cd my-game
 ```
