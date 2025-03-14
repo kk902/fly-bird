@@ -21,5 +21,5 @@ cd my-game
 ### 4. 安装客户端依赖&启动
 ```sh
 npm install
-ts-node client.ts
+npm run dev
 ```
